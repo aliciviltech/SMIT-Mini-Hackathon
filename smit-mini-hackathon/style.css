@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+@font-face {
+    font-family: roboto ;
+    src: url(assets/fonts/roboto/Roboto-Medium.ttf);
+}
+body{
+    background-color: #e8e4e4;
+}
+.header-section{
+    height: 700px;
+    background-image: url(assets/images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.section-container{
+    width: 90%;
+    margin: auto;
+}
+.section-container .nav-bars .top-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-family: roboto;
+    color: #FFFFFF;
+}
+
+.section-container .nav-bars .bottom-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px;
+    background-color: #FFFFFF;
+
+}
+
+.section-container .nav-bars .bottom-bar ul{
+    display: flex;
+    gap: 50px;
+}
+.section-container .nav-bars .bottom-bar ul li{
+    list-style-type: none;
+}
+
+.section-container .nav-bars .bottom-bar ul li a{
+    text-decoration: none;
+    font-family: roboto;
+    color: #000000;
+}
+#consultation{
+    background: #fd4c82;
+    color: #FFFFFF;
+    padding: 15px 10px;
+}
+
+.section-container .banner-content{
+    width: 50%;
+    padding: 100px 100px;
+}
+.section-container .banner-content h1{
+    font-family: roboto;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+.section-container .banner-content p{
+    font-family: roboto;
+    color: #999999;
+    margin: 20px 0;
+}
+.section-container .banner-content button{
+    font-family: roboto;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+
+}
+.section-container .banner-content .btn1{
+    background-color: #fd4c82;
+}
+.section-container .banner-content .btn2{
+    background-color: #91C235;
+    width: 150px;
+}
+.section-container .service-cards{
+    display: flex;
+    gap: 40px;
+    width: 80%;
+    margin: auto;
+}
+.section-container .service-cards .card{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 5px;
+}
+.section-container .service-cards .card:hover{
+    background-color:#fd4c82;
+    color: #FFFFFF;
+}
+.section-container .service-cards .card .icon{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+.section-container .service-cards .card .text h4{
+    font-size: 20px;
+    margin-bottom:10px ;
+}
+.section-container .service-cards .card .text p{
+    color: #999999 ;
+}
+
+.welcome-section{
+    margin-top:200px ;
+}
+.welcome-section .welcome-box{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.welcome-section .welcome-box .image-side img{
+    width: 400px;
+}
+.welcome-section .welcome-box .text-side{
+    width: 50%;
+    text-align: justify;
+}
+.welcome-section .welcome-box h1{
+    font-size:50px ;
+    margin: 20px;
+}
+.welcome-section .welcome-box p{
+    
+    margin: 20px;
+}
+.welcome-section .welcome-box ul {
+    
+    margin: 20px;
+}
+.welcome-section .welcome-box ul li{
+    list-style-type: none;
+    font-size: 20px;
+    margin: 10px;
+}
+.welcome-section .welcome-box span , .welcome-section .welcome-box ul{
+    color: #fd4c82;
+}
+
+/* ================= form section ==================== */
+.form-section{
+    margin-top: 200px;
+}
+.form-section .heading{
+    text-align: center;
+    margin: 10px ;
+}
+.form-section form input{
+    width: 20%;
+    height: 35px;
+    margin: 5px 20px;
+}
+.form-section form #appointment{
+    background-color: #fd4c82;
+    color: #FFFFFF;
+    border: none;
+} 
+
+
+/* ================== footer section ================== */
+.footer-section{
+    margin-top:200px ;
+}
+.top-footer{
+
+    background-color: #999999;
+    color: #000000;
+    display: flex;
+    padding: 50px;
+}
+.top-footer .column-1{
+    flex: 3;
+    padding: 50px;
+}
+.top-footer .column-1 h3{
+    color: #bc033b;
+    margin: 10px;
+}
+.top-footer .column-1 p{
+    margin: 10px;
+}
+.top-footer .column-1 span{
+    margin: 10px;
+}
+.top-footer .column-2{
+    flex: 3;
+}
+.top-footer .column-2 h3{
+    margin-bottom: 20px;
+}
+.top-footer .column-3{
+    flex: 3;
+}
+.top-footer .column-3 h3{
+    margin-bottom: 20px;
+}
+.top-footer .column-4{
+    flex: 3;
+    padding: 50px;
+}
+.top-footer .column-4 h3{
+    color: #bc033b;
+    margin-bottom: 10px;
+}
+.top-footer .column-4 p{
+    margin-bottom: 10px;
+}
+.top-footer li{
+    list-style-type: none;
+    margin: 10px;
+}
+.top-footer li:hover a{
+    color: #bc033b;
+}
+.top-footer li a{
+    text-decoration: none;
+    color: #000000;
+}
+.top-footer li i{
+    margin-right:10px ;
+    color: #bc033b;
+}
+.bottom-footer{
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 50px;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .section-container .nav-bars .top-bar{
+        display: none;
+        
+    }
+}
